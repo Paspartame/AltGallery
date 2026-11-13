@@ -1,0 +1,27 @@
+[github]
+repo = "WXRIW/Lyricify-App"
+[source]
+name = "XHN IPA"
+subtitle = "ZeldonArc 的个人侧载源"
+description = "精选官方 GitHub Releases IPA，兼容 LiveContainer、SideStore 和 AltStore。每 6 小时检查更新。"
+icon_url = "https://raw.githubusercontent.com/Paspartame/AltGallery/master/assets/icon.png"
+website = "https://ipa.xhn.ee"
+tint_color = "#5B7CFA"
+[app]
+name = "Lyricify Mobile"
+bundle_identifier = "com.wxriw.LyricifyMobile"
+developer_name = "WXRIW"
+subtitle = "Spotify 与 Apple Music 歌词"
+description = "Lyricify Mobile iOS 版，支持逐字歌词和 Apple Music、Spotify 播放源。应用最低要求 iOS 12.2，桌面歌词需 iOS 15 或更新版本。仅收录 mobile-v* 稳定版的 iOS IPA。"
+icon_url = "https://raw.githubusercontent.com/Paspartame/AltGallery/master/apps/Lyricify-Mobile/icon.png"
+tint_color = "#DF565D"
+min_os_version = "12.2"
+[versions]
+strip_v_prefix = false
+include_prereleases = true
+asset_pattern = "^LyricifyMobile\\.v.*-release\\.ipa$"
+version_pattern = "^mobile-v(\\d+\\.\\d+\\.\\d+)$"
+version_source = "release"
+max_versions = 1
+[output]
+path = "apps.json"

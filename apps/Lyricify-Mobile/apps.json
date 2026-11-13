@@ -1,0 +1,41 @@
+{
+  "name": "XHN IPA",
+  "subtitle": "ZeldonArc 的个人侧载源",
+  "description": "精选官方 GitHub Releases IPA，兼容 LiveContainer、SideStore 和 AltStore。每 6 小时检查更新。",
+  "iconURL": "https://raw.githubusercontent.com/Paspartame/AltGallery/master/assets/icon.png",
+  "website": "https://ipa.xhn.ee",
+  "tintColor": "#5B7CFA",
+  "apps": [
+    {
+      "name": "Lyricify Mobile",
+      "bundleIdentifier": "com.wxriw.LyricifyMobile",
+      "developerName": "WXRIW",
+      "subtitle": "Spotify 与 Apple Music 歌词",
+      "localizedDescription": "Lyricify Mobile iOS 版，支持逐字歌词和 Apple Music、Spotify 播放源。应用最低要求 iOS 12.2，桌面歌词需 iOS 15 或更新版本。仅收录 mobile-v* 稳定版的 iOS IPA。",
+      "iconURL": "https://raw.githubusercontent.com/Paspartame/AltGallery/master/apps/Lyricify-Mobile/icon.png",
+      "tintColor": "#DF565D",
+      "versions": [
+        {
+          "version": "mobile-v1.6.0",
+          "date": "2026-10-20T06:25:52Z",
+          "localizedDescription": "## Lyricify Mobile Ver 1.6.0-release\r\n\r\n### 安装说明\r\nLyricify Mobile Android 直接下载 `.apk` 安装即可。\r\nLyricify Mobile iOS 可在下载 `.ipa` 后参考[本教程](https://docs.lyricify.app/lyricify-mobile/ios-ipa-guide/)进行安装。\r\nLyricify Mobile for macOS 直接下载 `macOS.pkg` 安装即可（推荐），或下载 `.macOS.zip` 后，将压缩包中的 `Lyricify Mobile for macOS.app` 拖入 `应用程序` 文件夹。\r\n\r\n### Installation Instructions\r\n\r\nFor **Lyricify Mobile Android**, simply download the `.apk` file and install it.\r\nFor **Lyricify Mobile iOS**, download the `.ipa` file and follow [this guide](https://docs.lyricify.app/en/lyricify-mobile/ios-ipa-guide/) to install it.\r\nFor **Lyricify Mobile for macOS**, simply download and install the `macOS.pkg` package (recommended). Alternatively, download the `.macOS.zip` file, extract it, and drag `Lyricify Mobile for macOS.app` into the `Applications` folder.\r\n\r\n### 更新日志：\r\n1. 添加逐字歌词。\r\n2. 添加原生高级歌词效果，支持背景人声及单词发光效果。\r\n3. 添加桌面歌词，iOS 版需 iOS 15.0 及以上。\r\n4. 重构歌词获取流程，添加歌词源管理及 Apple Music、Spotify 歌词源。\r\n5. Android 版和 macOS 版添加 Media Session 支持，可读取其他 app 的播放会话。\r\n6. Android 版为 Spotify 添加 Media Session 增强，优化进度同步和播放控制。\r\n7. iOS 版和 macOS 版添加 Apple Music 播放源支持。\r\n8. 添加 PlusLighter 效果，Android 版另提供 PlusLighter (Advanced)。\r\n9. 添加 Apple Music 动态背景，Android 版和 macOS 版支持背景跳动（macOS 需 14.2 及以上）。\r\n10. 添加横屏布局及完整播放控制，优化大屏布局和字号适配。\r\n11. 添加设备延迟管理器，iOS 版仅支持 Apple Music 播放源。\r\n12. 适配 Spotify API 更改，优化登录及授权过期处理。\r\n13. 移除 Windows 版。\r\n14. 添加歌词简繁体独立设置，优化中文转换。\r\n15. 添加曲目信息页。\r\n16. 添加歌词调试页，支持查看获取记录及手动刷新歌词。\r\n17. 添加设置文件编辑器，在设置页面连续点击 7 次设置标题可进入。\r\n18. 点击歌词行时自动恢复播放，并优化触摸反馈。\r\n19. 添加竖屏模式下歌词滚动目标位置的自定义选项。\r\n20. 曲目信息采用 Apple Music 同款跑马灯动画。\r\n21. 修复 QQ 音乐翻译的解析问题。\r\n22. 优化纯音乐歌词识别。\r\n23. 修复 Android 版和 iOS 版的启动画面显示问题。\r\n24. Android 版优化动画帧率。\r\n25. 修复 Android 版非正方形封面的显示问题。\r\n26. iOS 版和 macOS 版添加歌词模糊效果。\r\n27. iOS 版添加歌词页隐藏主屏幕指示条和灵动岛实时活动的选项。\r\n28. 重构 iOS 版设置页。\r\n29. iOS 版适配 ProMotion。\r\n30. iOS 版适配 iPhone Air 机型。\r\n31. 优化 iOS 版提示消息的显示。\r\n32. iOS 版最低系统要求提高至 iOS 12.2。\r\n33. macOS 版添加全屏时禁止系统进入睡眠。\r\n\r\n### Change Log:\r\n1. [Add] Word synced lyrics.\r\n2. [Add] Native Advanced Lyrics Effect with background vocals and Word Shine support.\r\n3. [Add] Desktop Lyrics; the iOS version requires iOS 15.0 or later.\r\n4. [Change] Rework lyrics acquisition with source management and Apple Music/Spotify lyrics sources.\r\n5. [Add] Media Session support on Android and macOS to read playback sessions from other apps.\r\n6. [Add] Spotify Media Session enhancement on Android for improved progress synchronization and playback controls.\r\n7. [Add] Apple Music playback source on iOS and macOS.\r\n8. [Add] PlusLighter, with PlusLighter (Advanced) on Android.\r\n9. [Add] Apple Music animated backgrounds, with Background Pulse support on Android and macOS 14.2 or later.\r\n10. [Add] Landscape layout with full playback controls and adaptive font sizing for large screens.\r\n11. [Add] Device Latency Manager, limited to Apple Music playback on iOS.\r\n12. [Fix] Adapt to Spotify API changes and improve login and authorization expiry handling.\r\n13. [Remove] Windows version.\r\n14. [Add] Independent Simplified/Traditional Chinese lyrics preference, with improved Chinese conversion.\r\n15. [Add] Track information page.\r\n16. [Add] Lyrics debug page with acquisition records and manual lyrics refresh.\r\n17. [Add] Settings file editor, accessible by tapping the settings title seven times.\r\n18. [Add] Automatically resume playback when tapping a lyric line, with improved touch feedback.\r\n19. [Add] Customizable lyrics scroll target position in portrait mode.\r\n20. [Change] Adopt Apple Music style track info marquee animations.\r\n21. [Fix] QQ Music lyrics translation parsing.\r\n22. [Fix] Improve instrumental track recognition.\r\n23. [Fix] Splash screen display issues on Android and iOS.\r\n24. [Change] Improve animation frame rates on Android.\r\n25. [Fix] Display of non-square album artwork on Android.\r\n26. [Add] Lyrics blur on iOS and macOS.\r\n27. [Add] Option to hide the Home Indicator and Dynamic Island Live Activities on the iOS lyrics page.\r\n28. [Change] Rebuild the iOS settings page.\r\n29. [Add] ProMotion support on iOS.\r\n30. [Add] iPhone Air support on iOS.\r\n31. [Change] Improve toast messages on iOS.\r\n32. [Change] Raise the minimum supported iOS version to 12.2.\r\n33. [Add] Prevent system sleep in full screen on macOS.",
+          "downloadURL": "https://github.com/WXRIW/Lyricify-App/releases/download/mobile-v1.6.0/LyricifyMobile.v1.6.0-release.ipa",
+          "size": 25346227,
+          "minOSVersion": "12.2"
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "appID": "com.wxriw.LyricifyMobile",
+      "title": "Lyricify Mobile mobile-v1.6.0 - 20 Oct 2026",
+      "identifier": "Lyricify Mobile-release-mobile-v1.6.0",
+      "caption": "Lyricify Mobile mobile-v1.6.0 is available.",
+      "date": "2026-10-20T06:25:52Z",
+      "tintColor": "#DF565D",
+      "notify": true,
+      "url": "https://github.com/WXRIW/Lyricify-App/releases/tag/mobile-v1.6.0"
+    }
+  ]
+}

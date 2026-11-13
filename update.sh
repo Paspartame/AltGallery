@@ -57,14 +57,15 @@ fi
 # 1. Regenerate each apps/<AppName>/apps.json from its config.toml —
 #    every app, or only the targeted one.
 failed=()
-for app_dir in apps/*/; do
+for app_name in Roam-Control Lyricify-Mobile Swipt; do
+  app_dir="apps/$app_name/"
   if [[ -f "$app_dir/config.toml" ]]; then
     name="${app_dir%/}"
     if [[ -n "$target" && "$name" != "apps/$target" ]]; then
       continue
     fi
     echo "==> Updating $name"
-    if ! (cd "$app_dir" && uvx altgen -c config.toml); then
+    if ! (cd "$app_dir" && uvx --from altgen==0.2.12 altgen -c config.toml); then
       if [[ -z "$skip_failures" ]]; then
         echo "Error: altgen failed for $name — aborting." >&2
         echo "Re-run with --skip-failures (or SKIP_FAILURES=1) to update the other apps anyway." >&2
@@ -97,11 +98,14 @@ if [[ ${#failed[@]} -gt 0 ]]; then
   fi
 fi
 
+python3 tools/swipt_metadata.py
+
 # 2. Merge every existing source into the repo-root all-apps.json. All sources
 #    are inputs whether or not they were regenerated this run, so the merged
 #    file always reflects the full gallery.
 apps=()
-for app_dir in apps/*/; do
+for app_name in Roam-Control Lyricify-Mobile Swipt; do
+  app_dir="apps/$app_name/"
   if [[ -f "$app_dir/apps.json" ]]; then
     apps+=("$app_dir/apps.json")
   fi
@@ -109,7 +113,7 @@ done
 
 if [[ ${#apps[@]} -gt 0 ]]; then
   echo "==> Merging ${#apps[@]} source(s) into all-apps.json"
-  uvx altgen merge -c assets/merge.toml "${apps[@]}"
+  uvx --from altgen==0.2.12 altgen merge -c assets/merge.toml "${apps[@]}"
 else
   echo "No app sources found — nothing to merge."
 fi

@@ -1,4 +1,4 @@
-# altgen merge config for AltGallery.
+# altgen merge config for XHN IPA.
 # Run: uvx altgen merge -c assets/merge.toml apps/PiliPlus/apps.json
 # (append more apps/<AppName>/apps.json inputs as they are generated)
 #
@@ -8,11 +8,11 @@
 # Root values also work as CLI flags, e.g. altgen merge --name ... apps/PiliPlus/apps.json
 
 [source]
-name = "AltGallery"
-subtitle = "Curated AltStore sources for IPA projects on GitHub"
-description = "AltStore sources generated from GitHub Releases by AltGallery"
-icon_url = "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/assets/icon.png"
-website = "https://github.com/bebound/AltGallery"
+name = "XHN IPA"
+subtitle = "ZeldonArc 的个人侧载源"
+description = "AltStore sources generated from GitHub Releases by XHN IPA"
+icon_url = "https://raw.githubusercontent.com/Paspartame/AltGallery/master/assets/icon.png"
+website = "https://github.com/Paspartame/AltGallery"
 tint_color = "#3B82F6"
 
 [output]

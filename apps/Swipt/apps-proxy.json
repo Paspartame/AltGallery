@@ -1,0 +1,50 @@
+{
+  "name": "XHN IPA",
+  "subtitle": "ZeldonArc 的个人侧载源",
+  "description": "精选官方 GitHub Releases IPA，兼容 LiveContainer、SideStore 和 AltStore。每 6 小时检查更新。",
+  "iconURL": "https://gh-proxy.com/https://raw.githubusercontent.com/Paspartame/AltGallery/master/assets/icon.png",
+  "website": "https://ipa.xhn.ee",
+  "tintColor": "#5B7CFA",
+  "apps": [
+    {
+      "name": "Swipt Nightly",
+      "bundleIdentifier": "io.nekohasekai.swipt",
+      "developerName": "nekohasekai",
+      "subtitle": "iPhone 自动化 · Nightly 测试版",
+      "localizedDescription": "通过 JavaScript swiplets 自动操作 iPhone 或 iPad。目前跟踪官方 Nightly 测试构建。版本号和构建号来自官方 altstore.json；同版本号下的新构建也会刷新。源格式兼容不代表此应用的所有功能均可在 LiveContainer 容器内运行；遇到配对、后台或自动化限制时可用 SideStore 独立安装。",
+      "iconURL": "https://gh-proxy.com/https://raw.githubusercontent.com/Paspartame/AltGallery/master/apps/Swipt/icon.png",
+      "tintColor": "#725AF8",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "77",
+          "date": "2026-11-13T08:59:02Z",
+          "downloadURL": "https://gh-proxy.com/https://github.com/swipt-automation/swipt/releases/download/nightly/Swipt.ipa",
+          "size": 48135363,
+          "sha256": "f605ef9fa127b51f9fd4bcb6094a68ff855aa7ddce601e038f5aed5b52fca18f",
+          "minOSVersion": "16.4",
+          "buildNumber": "77"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Swipt connects to developer services on this device and, if you publish its API, accepts connections on the local network.",
+          "NSLocationWhenInUseUsageDescription": "Swipt gets your approximate location only to keep automating this device while you use other apps or the device is locked. It doesn’t keep your location or send it anywhere."
+        }
+      }
+    }
+  ],
+  "news": [
+    {
+      "appID": "io.nekohasekai.swipt",
+      "title": "Swipt Nightly nightly - 13 Nov 2026",
+      "identifier": "Swipt Nightly-release-nightly",
+      "caption": "Swipt Nightly nightly is available.",
+      "date": "2026-11-13T08:59:11Z",
+      "tintColor": "#725AF8",
+      "notify": true,
+      "url": "https://github.com/swipt-automation/swipt/releases/tag/nightly"
+    }
+  ]
+}

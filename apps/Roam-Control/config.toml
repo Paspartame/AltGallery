@@ -5,39 +5,41 @@
 repo = "seanhowarthdev/Roam-Control"
 
 [source]
-name = "Roam Control"
-subtitle = "Roam Control AltStore source by AltGallery & AltGen"
-description = "Auto-updated AltStore source for Roam Control"
-icon_url = "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/Roam-Control/icon.png"
-website = "https://github.com/seanhowarthdev/Roam-Control"
+name = "XHN IPA"
+subtitle = "ZeldonArc 的个人侧载源"
+description = "精选官方 GitHub Releases IPA，兼容 LiveContainer、SideStore 和 AltStore。每 6 小时检查更新。"
+icon_url = "https://raw.githubusercontent.com/Paspartame/AltGallery/master/apps/Roam-Control/icon.png"
+website = "https://ipa.xhn.ee"
 tint_color = "#1090F0"
 
 [app]
 name = "Roam Control"
-bundle_identifier = "com.sean.roamcontrol"
+bundle_identifier = "com.roamcontrol"
 developer_name = "seanhowarthdev"
 subtitle = "Choose, test and move your iPhone's reported location"
 description = "Set a fixed reported location, preview and simulate Apple Maps walking routes, and save favourites and history — all from one map. Requires iOS 27 or newer, and guided LocalDevVPN-compatible sessions for Wi-Fi and mobile data."
-icon_url = "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/Roam-Control/icon.png"
+icon_url = "https://raw.githubusercontent.com/Paspartame/AltGallery/master/apps/Roam-Control/icon.png"
 screenshots = [
-  "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/Roam-Control/images/welcome.png",
-  "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/Roam-Control/images/fixed-location.png",
-  "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/Roam-Control/images/walking-preview.png",
+  "https://raw.githubusercontent.com/Paspartame/AltGallery/master/apps/Roam-Control/images/welcome.png",
+  "https://raw.githubusercontent.com/Paspartame/AltGallery/master/apps/Roam-Control/images/fixed-location.png",
+  "https://raw.githubusercontent.com/Paspartame/AltGallery/master/apps/Roam-Control/images/walking-preview.png",
 ]
 tint_color = "#1090F0"
 min_os_version = "27.0"
 
 [versions]
-strip_v_prefix = true
+strip_v_prefix = false
 include_prereleases = false
+version_pattern = "^v(\\d+\\.\\d+\\.\\d+)$"
 # asset_pattern is a regex (not glob): every release ships exactly one unsigned
 # ipa named RoamControl-<version>-build<build>.ipa (e.g. RoamControl-0.9.3-build63.ipa).
 asset_pattern = "^RoamControl-.*\\.ipa$"
+build_version_pattern = "[Bb]uild(\\d+)"
 
 [news]
 title_template = "{name} {version} · {date}"
 # shared promo image rendered by tools/render_news.py
-image_url = "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/Roam-Control/images/news.png"
+image_url = "https://raw.githubusercontent.com/Paspartame/AltGallery/master/apps/Roam-Control/images/news.png"
 
 [output]
 path = "apps.json"

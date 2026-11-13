@@ -1,2 +1,2 @@
-altgen>=0.2.4
+altgen==0.2.12
 pillow>=12.3.0
