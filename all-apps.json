@@ -61,13 +61,13 @@
       "versions": [
         {
           "version": "0.1.0",
-          "buildVersion": "77",
-          "date": "2026-11-13T08:59:02Z",
+          "buildVersion": "82",
+          "date": "2026-11-13T17:15:18Z",
           "downloadURL": "https://github.com/swipt-automation/swipt/releases/download/nightly/Swipt.ipa",
-          "size": 48135363,
-          "sha256": "f605ef9fa127b51f9fd4bcb6094a68ff855aa7ddce601e038f5aed5b52fca18f",
+          "size": 48174029,
+          "sha256": "1f9e398fb9bbb5914e9ad649ea837dd479ab73b96d96a836fc89fa634a4bc179",
           "minOSVersion": "16.4",
-          "buildNumber": "77"
+          "buildNumber": "82"
         }
       ],
       "appPermissions": {
@@ -85,7 +85,7 @@
       "title": "Swipt Nightly nightly - 13 Nov 2026",
       "identifier": "Swipt Nightly-release-nightly",
       "caption": "Swipt Nightly nightly is available.",
-      "date": "2026-11-13T08:59:11Z",
+      "date": "2026-11-13T17:15:25Z",
       "tintColor": "#725AF8",
       "imageURL": "https://raw.githubusercontent.com/Paspartame/AltGallery/master/apps/Swipt/images/news.png",
       "notify": true,
