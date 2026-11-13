@@ -1,7 +1,7 @@
 {
-  "name": "XHN IPA",
-  "subtitle": "ZeldonArc 的个人侧载源",
-  "description": "精选官方 GitHub Releases IPA，兼容 LiveContainer、SideStore 和 AltStore。每 6 小时检查更新。",
+  "name": "XHN.EE",
+  "subtitle": "Zelda's Personal Source",
+  "description": "A curated personal source of official GitHub release builds for LiveContainer, SideStore, and AltStore. Checked for updates every 6 hours.",
   "iconURL": "https://gh-proxy.com/https://raw.githubusercontent.com/Paspartame/AltGallery/master/assets/icon.png",
   "website": "https://ipa.xhn.ee",
   "tintColor": "#5B7CFA",
@@ -10,8 +10,8 @@
       "name": "Swipt Nightly",
       "bundleIdentifier": "io.nekohasekai.swipt",
       "developerName": "nekohasekai",
-      "subtitle": "iPhone 自动化 · Nightly 测试版",
-      "localizedDescription": "通过 JavaScript swiplets 自动操作 iPhone 或 iPad。目前跟踪官方 Nightly 测试构建。版本号和构建号来自官方 altstore.json；同版本号下的新构建也会刷新。源格式兼容不代表此应用的所有功能均可在 LiveContainer 容器内运行；遇到配对、后台或自动化限制时可用 SideStore 独立安装。",
+      "subtitle": "iPhone automation · nightly builds",
+      "localizedDescription": "Automate your iPhone or iPad with JavaScript swiplets. Tracks official nightly builds; version and build numbers come from the official altstore.json, and newer builds refresh even when the version is unchanged. Source compatibility does not guarantee every feature works in LiveContainer; use SideStore for pairing, background, or automation limitations.",
       "iconURL": "https://gh-proxy.com/https://raw.githubusercontent.com/Paspartame/AltGallery/master/apps/Swipt/icon.png",
       "tintColor": "#725AF8",
       "versions": [
@@ -43,6 +43,7 @@
       "caption": "Swipt Nightly nightly is available.",
       "date": "2026-11-13T08:59:11Z",
       "tintColor": "#725AF8",
+      "imageURL": "https://gh-proxy.com/https://raw.githubusercontent.com/Paspartame/AltGallery/master/apps/Swipt/images/news.png",
       "notify": true,
       "url": "https://github.com/swipt-automation/swipt/releases/tag/nightly"
     }

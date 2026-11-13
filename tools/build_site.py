@@ -11,6 +11,7 @@ and stages everything the site needs:
   _site/style.css            page styles
   _site/app.js               page script
   _site/all-apps.json        catalog the page fetches (copy of the source)
+  _site/source.json          alias of the all-apps catalog
   _site/all-apps-proxy.json  gh-proxy mirror (kept for download/compare)
   _site/config.json          repo, raw base and proxy prefix derived here
   _site/preview.html         local preview: CSS, JS and the catalog inlined,
@@ -243,6 +244,7 @@ def main() -> int:
     (out_dir / "style.css").write_bytes(style)
     (out_dir / "app.js").write_bytes(script)
     shutil.copyfile(source_path, out_dir / "all-apps.json")
+    shutil.copyfile(source_path, out_dir / "source.json")
     shutil.copyfile(proxy_path, out_dir / "all-apps-proxy.json")
     (out_dir / "config.json").write_text(
         json.dumps(config, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
@@ -265,6 +267,7 @@ def main() -> int:
         "style.css",
         "app.js",
         "all-apps.json",
+        "source.json",
         "all-apps-proxy.json",
         "config.json",
         "preview.html",

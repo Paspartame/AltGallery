@@ -1,7 +1,7 @@
 {
-  "name": "XHN IPA",
-  "subtitle": "ZeldonArc 的个人侧载源",
-  "description": "精选官方 GitHub Releases IPA，兼容 LiveContainer、SideStore 和 AltStore。每 6 小时检查更新。",
+  "name": "XHN.EE",
+  "subtitle": "Zelda's Personal Source",
+  "description": "Zelda's Personal Source",
   "iconURL": "https://gh-proxy.com/https://raw.githubusercontent.com/Paspartame/AltGallery/master/apps/Roam-Control/icon.png",
   "website": "https://ipa.xhn.ee",
   "tintColor": "#1090F0",

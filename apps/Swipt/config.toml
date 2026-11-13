@@ -1,9 +1,9 @@
 [github]
 repo = "swipt-automation/swipt"
 [source]
-name = "XHN IPA"
-subtitle = "ZeldonArc 的个人侧载源"
-description = "精选官方 GitHub Releases IPA，兼容 LiveContainer、SideStore 和 AltStore。每 6 小时检查更新。"
+name = "XHN.EE"
+subtitle = "Zelda's Personal Source"
+description = "A curated personal source of official GitHub release builds for LiveContainer, SideStore, and AltStore. Checked for updates every 6 hours."
 icon_url = "https://raw.githubusercontent.com/Paspartame/AltGallery/master/assets/icon.png"
 website = "https://ipa.xhn.ee"
 tint_color = "#5B7CFA"
@@ -11,8 +11,8 @@ tint_color = "#5B7CFA"
 name = "Swipt Nightly"
 bundle_identifier = "io.nekohasekai.swipt"
 developer_name = "nekohasekai"
-subtitle = "iPhone 自动化 · Nightly 测试版"
-description = "通过 JavaScript swiplets 自动操作 iPhone 或 iPad。目前跟踪官方 Nightly 测试构建。版本号和构建号来自官方 altstore.json；同版本号下的新构建也会刷新。源格式兼容不代表此应用的所有功能均可在 LiveContainer 容器内运行；遇到配对、后台或自动化限制时可用 SideStore 独立安装。"
+subtitle = "iPhone automation · nightly builds"
+description = "Automate your iPhone or iPad with JavaScript swiplets. Tracks official nightly builds; version and build numbers come from the official altstore.json, and newer builds refresh even when the version is unchanged. Source compatibility does not guarantee every feature works in LiveContainer; use SideStore for pairing, background, or automation limitations."
 icon_url = "https://raw.githubusercontent.com/Paspartame/AltGallery/master/apps/Swipt/icon.png"
 tint_color = "#725AF8"
 min_os_version = "16.4"
@@ -23,5 +23,7 @@ asset_pattern = "^Swipt\\.ipa$"
 version_pattern = "^nightly$"
 version_source = "release"
 max_versions = 1
+[news]
+image_url = "https://raw.githubusercontent.com/Paspartame/AltGallery/master/apps/Swipt/images/news.png"
 [output]
 path = "apps.json"

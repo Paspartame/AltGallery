@@ -101,17 +101,21 @@ _HEX_RE = re.compile(r"^#[0-9a-fA-F]{6}$")
 FONT_CANDIDATES = {
     "latin": [
         ("/System/Library/Fonts/Helvetica.ttc", 0),  # Regular
+        ("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 0),
     ],
     "latin_bold": [
         ("/System/Library/Fonts/Helvetica.ttc", 1),  # Bold
+        ("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 0),
     ],
     "cjk": [
         ("/System/Library/Fonts/Hiragino Sans GB.ttc", 0),  # W3
         ("/System/Library/Fonts/STHeiti Medium.ttc", 1),  # Heiti SC Medium
+        ("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 0),
     ],
     "cjk_bold": [
         ("/System/Library/Fonts/Hiragino Sans GB.ttc", 2),  # W6
         ("/System/Library/Fonts/STHeiti Medium.ttc", 0),  # Heiti TC Medium
+        ("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 0),
     ],
 }
 

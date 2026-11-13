@@ -8,9 +8,9 @@
 # Root values also work as CLI flags, e.g. altgen merge --name ... apps/PiliPlus/apps.json
 
 [source]
-name = "XHN IPA"
-subtitle = "ZeldonArc 的个人侧载源"
-description = "AltStore sources generated from GitHub Releases by XHN IPA"
+name = "XHN.EE"
+subtitle = "Zelda's Personal Source"
+description = "Zelda's Personal Source"
 icon_url = "https://raw.githubusercontent.com/Paspartame/AltGallery/master/assets/icon.png"
 website = "https://github.com/Paspartame/AltGallery"
 tint_color = "#3B82F6"
