@@ -98,7 +98,8 @@ if [[ ${#failed[@]} -gt 0 ]]; then
   fi
 fi
 
-python3 tools/swipt_metadata.py
+
+python3 tools/swipt_build.py
 
 # 2. Merge every existing source into the repo-root all-apps.json. All sources
 #    are inputs whether or not they were regenerated this run, so the merged

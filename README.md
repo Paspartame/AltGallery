@@ -8,7 +8,7 @@
 
 <p>Curated AltStore sources for IPA projects on GitHub. All sources are generated with <a href="https://github.com/bebound/AltGen">AltGen</a>. It can be used with <a href="https://github.com/altstoreio/Altstore">AltStore</a>, <a href="https://github.com/SideStore/SideStore">SideStore</a>, <a href="https://github.com/LiveContainer/LiveContainer">LiveContainer</a>, <a href="https://github.com/claration/Feather">Feather</a> or other compatible apps.</p>
 
-<p>Browse the AltGallery in your browser: <a href="https://bebound.github.io/AltGallery/">bebound.github.io/AltGallery</a></p>
+<p>Browse the AltGallery in your browser: <a href="https://altgallery.fromkk.com/">altgallery.fromkk.com</a></p>
 
 <p align="center">
 <a href="https://altdirect.app/?url=https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/all-apps.json" target="_blank">
@@ -101,7 +101,7 @@ Free on-device iOS/iPadOS signer and app manager — sign and install IPAs with 
 Edit MobileGestalt on iOS 27 — region-code tweaks, device presets and capability flags, with backups and a typed plist field editor.
 
 ### <a href="https://github.com/pookjw/HermesEnabler"><img src="https://raw.githubusercontent.com/bebound/AltGallery/master/apps/HermesEnabler/icon.png" alt="HermesEnabler icon" width="24" align="top">HermesEnabler</a>
-Enable Hermès and Ultra watch faces on any Apple Watch, plus on-watch display, sensor and Siri tweaks. Requires watchOS 27.0–27.3 beta 1.
+Enable Hermès and Ultra watch faces on any Apple Watch, plus on-watch display, sensor and Siri tweaks. Requires watchOS 27.0–27.3 beta 1 and a paid Apple Developer account.
 
 ### <a href="https://github.com/Leviidev/Husk"><img src="https://raw.githubusercontent.com/bebound/AltGallery/master/apps/Husk/icon.png" alt="Husk icon" width="24" align="top">Husk</a>
 Run Android apps on iOS — drop in an APK, tap it, and it opens full-screen. Requires JIT and a debugger attached at runtime.
@@ -217,6 +217,9 @@ View your Mac's system activity on iPhone over a local encrypted connection.
 ### <a href="https://github.com/StikDebug/StikDebug"><img src="https://raw.githubusercontent.com/bebound/AltGallery/master/apps/StikDebug/icon.png" alt="StikDebug icon" width="24" align="top">StikDebug</a>
 On-device JIT enabler and device toolbox for iOS 17.4+, built on idevice.
 
+### <a href="https://github.com/swipt-automation/swipt"><img src="https://raw.githubusercontent.com/bebound/AltGallery/master/apps/Swipt/icon.png" alt="Swipt icon" width="24" align="top">Swipt</a>
+Automate an iPhone or iPad from JavaScript swiplets, with a TypeScript SDK and an MCP-compatible API.
+
 ### <a href="https://github.com/infinityf4p/TiebaPure-iOS"><img src="https://raw.githubusercontent.com/bebound/AltGallery/master/apps/TiebaPure/icon.png" alt="TiebaPure icon" width="24" align="top">TiebaPure</a>
 原生 SwiftUI 构建的非官方贴吧 iOS 客户端，支持浏览、搜索、收藏、媒体查看与本地阅读记录。
 
@@ -231,6 +234,9 @@ A full featured virtual machine host for iOS — run Windows, Android, and more 
 
 ### <a href="https://github.com/kolbicz/WQFiles"><img src="https://raw.githubusercontent.com/bebound/AltGallery/master/apps/WQFiles/icon.png" alt="WQ Files icon" width="24" align="top">WQ Files</a>
 File browser, app data manager and cache cleaner for iOS 26 and 27 — browse other apps' containers, edit plists, hex and SQLite databases, and back up, restore or clear app data without a jailbreak.
+
+### <a href="https://github.com/Kianuni/WQGuard"><img src="https://raw.githubusercontent.com/bebound/AltGallery/master/apps/WQGuard/icon.png" alt="WQGuard icon" width="24" align="top">WQGuard</a>
+面向 iOS 26.2+ / iOS 27.x 的零依赖、100% 物理只读沙盒逃逸检测引擎、Mach-O 静态二进制审计与多端固件 CVE 防护系统。
 
 ### <a href="https://github.com/MchinaMd57764/WQToolkit"><img src="https://raw.githubusercontent.com/bebound/AltGallery/master/apps/WQToolkit/icon.png" alt="WQToolkit icon" width="24" align="top">WQToolkit</a>
 File browser and maintenance panel for your own app containers — browse, clean and inspect your data and App Groups without a jailbreak.

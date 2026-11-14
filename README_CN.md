@@ -8,7 +8,7 @@
 
 <p>精选 AltStore 软件源：汇聚 GitHub 优质 IPA 开源项目。所有源均由 <a href="https://github.com/bebound/AltGen">AltGen</a> 生成。可用于 <a href="https://github.com/altstoreio/Altstore">AltStore</a>、<a href="https://github.com/SideStore/SideStore">SideStore</a>、<a href="https://github.com/LiveContainer/LiveContainer">LiveContainer</a>、<a href="https://github.com/claration/Feather">Feather</a> 或其他兼容应用。</p>
 
-<p >在浏览器中浏览AltGallery：<a href="https://bebound.github.io/AltGallery/">bebound.github.io/AltGallery</a></p>
+<p >在浏览器中浏览AltGallery：<a href="https://altgallery.fromkk.com/">altgallery.fromkk.com</a></p>
 
 <p align="center">
 <a href="https://altdirect.app/?url=https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/all-apps.json" target="_blank">
@@ -101,7 +101,7 @@ iOS 上的初代 Xbox 模拟器，基于 xemu 构建并配有原生 Swift 界面
 在 iOS 27 上编辑 MobileGestalt——区域代码调整、设备预设与能力开关，支持备份和带类型的 plist 字段编辑器。
 
 ### <a href="https://github.com/pookjw/HermesEnabler"><img src="https://raw.githubusercontent.com/bebound/AltGallery/master/apps/HermesEnabler/icon.png" alt="HermesEnabler icon" width="24" align="top">HermesEnabler</a>
-在任何 Apple Watch 上启用 Hermès 与 Ultra 表盘，并提供手表端显示、传感器与 Siri 调整。需要 watchOS 27.0–27.3 beta 1。
+在任何 Apple Watch 上启用 Hermès 与 Ultra 表盘，并提供手表端显示、传感器与 Siri 调整。需要 watchOS 27.0–27.3 beta 1 和付费的开发者账号。
 
 ### <a href="https://github.com/Leviidev/Husk"><img src="https://raw.githubusercontent.com/bebound/AltGallery/master/apps/Husk/icon.png" alt="Husk icon" width="24" align="top">Husk</a>
 在 iOS 上运行 Android 应用——放入 APK，轻点即可全屏打开。需要 JIT，并在运行时附加调试器。
@@ -217,6 +217,9 @@ MoviePilot 移动端，基于 Flutter 实现。
 ### <a href="https://github.com/StikDebug/StikDebug"><img src="https://raw.githubusercontent.com/bebound/AltGallery/master/apps/StikDebug/icon.png" alt="StikDebug icon" width="24" align="top">StikDebug</a>
 面向 iOS 17.4+ 的在设备端 JIT 启用工具与设备工具箱，基于 idevice 构建。
 
+### <a href="https://github.com/swipt-automation/swipt"><img src="https://raw.githubusercontent.com/bebound/AltGallery/master/apps/Swipt/icon.png" alt="Swipt icon" width="24" align="top">Swipt</a>
+用 JavaScript Swiplet 自动化操控 iPhone 或 iPad，内置 TypeScript SDK 与兼容 MCP 的 API。
+
 ### <a href="https://github.com/infinityf4p/TiebaPure-iOS"><img src="https://raw.githubusercontent.com/bebound/AltGallery/master/apps/TiebaPure/icon.png" alt="TiebaPure icon" width="24" align="top">TiebaPure</a>
 原生 SwiftUI 构建的非官方贴吧 iOS 客户端，支持浏览、搜索、收藏、媒体查看与本地阅读记录。
 
@@ -231,6 +234,9 @@ MoviePilot 移动端，基于 Flutter 实现。
 
 ### <a href="https://github.com/kolbicz/WQFiles"><img src="https://raw.githubusercontent.com/bebound/AltGallery/master/apps/WQFiles/icon.png" alt="WQ Files icon" width="24" align="top">WQ Files</a>
 面向 iOS 26 与 27 的文件浏览器、App 数据管理与缓存清理工具——无需越狱即可浏览其他 App 的容器、编辑 plist、十六进制与 SQLite 数据库，并备份、恢复或清除 App 数据。
+
+### <a href="https://github.com/Kianuni/WQGuard"><img src="https://raw.githubusercontent.com/bebound/AltGallery/master/apps/WQGuard/icon.png" alt="WQGuard icon" width="24" align="top">WQGuard</a>
+面向 iOS 26.2+ / iOS 27.x 的只读沙盒越权检测、侧载 IPA 审查与固件 CVE 防护工具——扫描已安装应用与本地 IPA 的容器逃逸特征，并内置五大代理客户端防 Brotli 溢出护盾。
 
 ### <a href="https://github.com/MchinaMd57764/WQToolkit"><img src="https://raw.githubusercontent.com/bebound/AltGallery/master/apps/WQToolkit/icon.png" alt="WQToolkit icon" width="24" align="top">WQToolkit</a>
 基于 App Group 容器查询原语的 iOS 工具箱——无需越狱即可浏览、清理与检查自己的应用数据容器，内置文件浏览器、缓存扫描与设备信息。
